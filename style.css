@@ -35,7 +35,6 @@ nav a {
 .home {
   display: flex;
   justify-content: space-evenly;
-  /* justify-content: space-around; */
   align-items: center;
 }
 .home h2 {
@@ -201,6 +200,46 @@ footer img {
 .copyright p {
   color: #8f8e8e;
   font-size: medium;
+}
+
+/* pc */
+
+@media (max-width: 900px) {
+  .home img {
+    width: 350px;
+    margin-top: 20px;
+  }
+  .home h2 {
+    font-size: 30px;
+    font-weight: 700px;
+  }
+  .group-cards {
+    display: grid;
+    justify-content: space-evenly;
+  }
+  .books {
+    margin-bottom: 10px;
+  }
+  .books button {
+    width: 15vw;
+    height: 7vh;
+  }
+  .card-group {
+    display: grid;
+  }
+  .card-group .card-title {
+    font-size: 1.5vw;
+    padding-top: 10px;
+  }
+  footer p {
+    font-size: 1vw;
+  }
+  footer div a {
+    font-size: 1vw;
+  }
+  footer img {
+    width: 40%;
+  }
 }
 
 /*                                      for Mobile Screens                          */
