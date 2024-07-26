@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #000;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+figure img {
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  text-decoration: none;
+  font-size: larger;
+}
+
+/* Home */
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.home input {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 12px;
+}
+
+/* Section */
+section {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+section p {
+  padding-top: 30px;
+}
+
+/*                                      for Mobile Screens                          */
+
+@media (max-width: 420px) {
+  figure img {
+    width: 80px;
+  }
+  nav a {
+    text-decoration: none;
+    font-size: small;
+  }
+
+  /* Home */
+  .home div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .home img {
+    width: 150px;
+  }
+  .home h2 {
+    font-size: 13px;
+  }
+  .home input {
+    width: 120px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 8px;
+  }
+
+  /* Section */
+  section {
+    padding: 10px;
+  }
+  section h3 {
+    font-size: medium;
+  }
+  section p {
+    font-size: smaller;
+    padding-top: 15px;
+  }
+}
